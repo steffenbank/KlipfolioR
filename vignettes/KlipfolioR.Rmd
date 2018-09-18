@@ -1,0 +1,29 @@
+---
+title: "KlipfolioR"
+author: "Steffen Bank"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Klipfolio is a dashboard-software and has a lot of neat features in order to visualize data to laypeople. This packagages tries to enhance the integration between Klipfolio and R in order to keep track of useage, post data etc. It's aim is to allow all the advangegeos of R being utalized in Klipfolio aswell. 
+
+The package is useable for all levels of R- and Klipfolio users. However it is assumed that the user knows the basics of the two components, hence a basic knowledge of dashboard, datasources and klips is required. 
+
+Why is this package nessesary? This package is nessesary because the interface of Klipfolio only supports limited functions to manage data and dashboards. The amount of functions available in R to transfort messy data into tidy data is significantly larger than in Klipfolio, which in some cases makes it more efficient to use R and then push the data into Klipfolio.
+
+Secondly, losing tracks of dashboard, klips and datasources is easy only using the Klipfolio interface. At the time of development Ekstra Bladet had more than 75 dashboards, 150 klips and 300 datasources. These data is accessed by more than 100 users in more than 30 groups.
+
+Combining R with the Klipfolio API allows one to administrate, overview and push data from R to Klipfolio in a much easiere and neat way.
+
+Good luck!
+
+Following packages are used to document `klipr`:
+
+```{r, message=F, warning=F}
+library(dplyr)
+library(magrittr)
+```

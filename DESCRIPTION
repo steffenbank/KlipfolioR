@@ -1,11 +1,14 @@
-Package: x
+Package: KlipfolioR
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Steffen Bank, <shok3y@gmail.com>
+Maintainer: Steffen Bank, <shok3y@gmail.com>
+Description: Provides a number of functions which allows the use of the Klipfolio with R 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: httr
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
