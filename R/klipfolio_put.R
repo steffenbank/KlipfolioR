@@ -38,9 +38,3 @@ klipfolio_put <- function(data, datasourceID,user,password,...) {
 }
 
 
-# dat <- head(mtcars)
-# id <- "13456968ceba726127680b6d7c3ad9c7"
-# m1 <- "steffen.bank@eb.dk"
-# m2 <- "Kodemovia15"
-# 
-# klipfolio_put(data = dat, datasourceID = id, user = m1, password = m2)
