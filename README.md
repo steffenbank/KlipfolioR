@@ -1,6 +1,10 @@
-# KlipfolioR
+# KlipfolioR <img src="man/figs/KlipfolioR.png" align="right" height = 200 width = 200 />
 
-The goal of KlipfolioR is to ...
+The goal of KlipfolioR is to enhance the use of Klipfolio by the use of R.
+
+
+\n \n
+
 
 ## Installation
 

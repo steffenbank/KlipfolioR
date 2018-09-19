@@ -15,7 +15,7 @@ The package is useable for all levels of R- and Klipfolio users. However it is a
 
 Why is this package nessesary? This package is nessesary because the interface of Klipfolio only supports limited functions to manage data and dashboards. The amount of functions available in R to transfort messy data into tidy data is significantly larger than in Klipfolio, which in some cases makes it more efficient to use R and then push the data into Klipfolio.
 
-Secondly, losing tracks of dashboard, klips and datasources is easy only using the Klipfolio interface. At the time of development Ekstra Bladet had more than 75 dashboards, 150 klips and 300 datasources. These data is accessed by more than 100 users in more than 30 groups.
+Secondly, losing tracks of dashboard, klips and datasources is easy only using the Klipfolio interface. At the time of development Ekstra Bladet had more than 75 dashboards, 150 klips and 300 datasources. These data is accessed by more than 200 users in more than 30 groups.
 
 Combining R with the Klipfolio API allows one to administrate, overview and push data from R to Klipfolio in a much easiere and neat way.
 
@@ -27,3 +27,9 @@ Following packages are used to document `klipr`:
 library(dplyr)
 library(magrittr)
 ```
+
+# Main function
+Description of klipfolio_put
+
+# Basic functions
+Describe base functions
