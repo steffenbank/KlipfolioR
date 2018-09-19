@@ -23,11 +23,6 @@ Good luck!
 
 Following packages are used to document `klipr`:
 
-```{r, message=F, warning=F}
-library(dplyr)
-library(magrittr)
-```
-
 # Main function
 Description of klipfolio_put
 

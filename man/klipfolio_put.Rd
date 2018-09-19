@@ -23,9 +23,9 @@ Put data into datasource
 }
 \examples{
 dat <- head(mtcars)
-datasource <- c(e535a3be736a7def01d5a07bf1296d57)
+datasource <- "abcd1234"
 
-#' email <- c("klipr.package@gmail.com")
-password <- c("changeme")
+#' email <- "klipfolior@klipfolior.com"
+password <- "secret_klipfolior"
 
 }

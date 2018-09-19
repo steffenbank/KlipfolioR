@@ -1,5 +1,3 @@
-
-
 #' Put data into datasource
 #'
 #' @param data a data object
@@ -12,19 +10,18 @@
 #'
 #' @examples
 #' dat <- head(mtcars)
-#' datasource <- c(e535a3be736a7def01d5a07bf1296d57)
+#' datasource <- "abcd1234"
 #'
-#' #' email <- c("klipr.package@gmail.com")
-#' password <- c("changeme")
+#' #' email <- "klipfolior@klipfolior.com"
+#' password <- "secret_klipfolior"
 #'
-klipfolio_put <- function(data, datasourceID,user,password,...) {
+klipfolio_put <- function(data, datasourceID,user,password) {
   
   # ---------------------------------------------------------- #
   # check input
   if (is.null(data)) {
     stop("Data cannot be empty")
   }
-  
   
   # ---------------------------------------------------------- #
   # get query of datasource

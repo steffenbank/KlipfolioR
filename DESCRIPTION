@@ -1,10 +1,10 @@
 Package: KlipfolioR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Creates API connection to Klipfolio
 Version: 0.1.0
 Author: Steffen Bank, <shok3y@gmail.com>
 Maintainer: Steffen Bank, <shok3y@gmail.com>
-Description: Provides a number of functions which allows the use of the Klipfolio with R 
+Description: Provides a number of functions which allows the use of the Klipfolio with R. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
