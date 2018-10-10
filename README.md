@@ -1,4 +1,4 @@
-# KlipfolioR <img src="man/figs/KlipfolioR.png" align="right" height = 250 width = 200 />
+# KlipfolioR <img src="man/figs/KlipfolioR.png" align="right" height = 200 width = 200 />
 
 The goal of KlipfolioR is to enhance the use of Klipfolio by the use of R.
 
