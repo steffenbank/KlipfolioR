@@ -1,3 +1,4 @@
+
 #' Put data into datasource
 #'
 #' @param data a data object
@@ -12,7 +13,7 @@
 #' dat <- head(mtcars)
 #' datasource <- "abcd1234"
 #'
-#' #' email <- "klipfolior@klipfolior.com"
+#' email <- "klipfolior@klipfolior.com"
 #' password <- "secret_klipfolior"
 #'
 klipfolio_put <- function(data, datasourceID,user,password) {
